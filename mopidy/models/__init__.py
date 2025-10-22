@@ -117,9 +117,6 @@ class Artist(ValidatedImmutableObject):
     #: The artist name. Read-only.
     name = fields.String()
 
-    #: Artist name for better sorting, e.g. with articles stripped
-    sortname = fields.String()
-
     #: The MusicBrainz ID of the artist. Read-only.
     musicbrainz_id = fields.Identifier()
 
